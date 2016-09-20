@@ -8,15 +8,15 @@ app.use(morgan('combined'));
 
 var articles = {
    "article1": {
-    title: 'Article One | Sandip Das',
-    heading: 'Article one',
+    title: 'About Us | dailyfit.com',
+    heading: 'About Us',
     date:"sep 20 2016",
     content:`
             <p>
-                This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application.
+                Well my name is Sandip Das. This is an free web application provide you a daily fitness. The main moto of the application "be healthy be happy".
             </p>
             <p>
-                This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application. This is the contain for my first web application.
+                Today all human want to be live happy. If you want to live happy your helth should be good. If your helth is good your mind automatically good and you live a peacefull life. 
             </p>`
 },
     "article2": {
