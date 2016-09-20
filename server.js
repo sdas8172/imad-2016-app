@@ -30,7 +30,7 @@ var articles = {
                 This new article for article two. This new article for article two. This new article for article two. This new article for article two.
             </p>`
 },
-    "article": {
+    "article3": {
     title: "Article Three | Sandip Das",
     heading: "Article Three",
     date: "sep 22 2016",
