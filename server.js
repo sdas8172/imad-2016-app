@@ -59,7 +59,9 @@ function createTemplate(data)
     <body>
         <div class="container">
         <div>
-            <a href="/">HOME</a>
+            <a href="/">HOME     </a>
+            <a href="/article1">ABOUT US</a>
+            
         </div>
         <hr/>
         <div>
