@@ -101,8 +101,8 @@ app.get('/ui/web-application-development1.png', function (req, res) {
 });
 
 
-app.get('/ui/tend.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'tend.jpg'));
+app.get('/ui/wall.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'wall.jpg'));
 });
 
 
