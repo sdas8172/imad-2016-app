@@ -16,7 +16,7 @@ var articles = {
                 Well my name is Sandip Das. This is an free web application provide you a daily fitness. The main moto of the application "be healthy be happy".
             </p>
             <p>
-                Today all human want to be live happy. If you want to live happy your helth should be good. If your helth is good your mind automatically good and you live a peacefull life. 
+                Today all human want to be live happy. If you want to live happy your health should be good. If your health is good your mind automatically good and you live a peacefull life. 
             </p>`
 },
     "article2": {
