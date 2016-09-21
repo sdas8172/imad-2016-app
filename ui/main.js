@@ -3,6 +3,7 @@ console.log('Loaded!');
 
 //move image
 var img=document.getElementById('web');
+var marginLeft=0;
 function moveRight() {
     marginLeft = marginLeft + 1;
     img.style.marginLeft = marginLeft + 'px';
