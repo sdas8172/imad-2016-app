@@ -13,7 +13,7 @@ img.onclick = function() {
 };
 
 //counter code
-var button = doccument.getElementById("counter");
+var button = doccument.getElementById('counter');
 var counter=0;
 button.onclick=function(){
     //make a request to the counter end point
@@ -22,6 +22,6 @@ button.onclick=function(){
     
     //render the variable in the correct span
     counter=counter+1;
-    var span= doccument.getElementById("count");
-    span.innerHtml=conter.toString();
+    var span= doccument.getElementById('count');
+    span.innerHtml=counter.toString();
 };
