@@ -20,7 +20,7 @@ button.onclick=function(){
     };
     
     //make a request
-    request.open('GET','https://sdas8172.imad.hasura-app.io/counter',true);
+    request.open('GET','http://sdas8172.imad.hasura-app.io/counter',true);
     request.send(null);
    
     
