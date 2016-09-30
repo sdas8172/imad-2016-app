@@ -163,6 +163,9 @@ app.get('/ui/google.png', function (req, res) {
 app.get('/ui/linkedin.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'linkedin.png'));
 });
+app.get('/ui/bg.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bg.jpg'));
+});
 
 
 
