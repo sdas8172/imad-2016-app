@@ -20,14 +20,14 @@ var articles = {
             </p>`
 },
     "article2": {
-    title: "Article Two | Sandip Das",
-    heading: "Article Two",
-    date: "sep 21 2016",
+    title: "BLOGS | dailyfit",
+    heading: "BLOGS",
+    date: "sep 30 2016",
     content: `<p>
-                This new article for article two. This new article for article two. This new article for article two. This new article for article two.
+                This is a new blog for fitness.
             </p>
             <p>
-                This new article for article two. This new article for article two. This new article for article two. This new article for article two.
+                Article will comming soon!!
             </p>`
 },
     "article3": {
@@ -60,6 +60,8 @@ function createTemplate(data)
         <div>
             <a href="/">HOME     </a>
             <a href="/article1">ABOUT US</a>
+            <a href="/article2">BLOGS</a>
+            <a href="/article3">CONTACT US</a>
             
         </div>
         <hr/>
