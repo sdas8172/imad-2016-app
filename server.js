@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 var articles = {
    "article1": {
-    title: 'About Us | dailyfit.com',
+    title: 'About Us | dailyfit',
     heading: 'About Us',
     date:"sep 20 2016",
     content:`
@@ -31,14 +31,13 @@ var articles = {
             </p>`
 },
     "article3": {
-    title: "Article Three | Sandip Das",
-    heading: "Article Three",
-    date: "sep 22 2016",
+    title: "CONTACT US | dailyfit",
+    heading: "CONTACT US",
+    date: "sep 30 2016",
     content: `<p>
-                This new article for article three. This new article for article three. This new article for article three. This new article for article three. This new article for article three.
-            </p>
-            <p>
-                This new article for article three. This new article for article three. This new article for article three. This new article for article three.
+                NAME  Sandip Das <br>
+                Mobile No  9674348796
+                Email id  sdas8172@gmail.com
             </p>`
 }
 };
