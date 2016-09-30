@@ -142,8 +142,8 @@ app.get('/ui/web-application-development1.png', function (req, res) {
 });
 
 
-app.get('/ui/wall.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'wall.jpg'));
+app.get('/ui/facebook.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'facebook.png'));
 });
 
 
