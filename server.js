@@ -28,12 +28,7 @@ var articles = {
             </p>
             <p>
                 Article will comming soon!!
-            </p>`,
-    comments:`<input type="text" id="name" placeholder="name">
-                <input type="submit" id="submit_btn" value="Submit">
-                <ul id="namelist">
-                    
-                </ul>`
+            </p>`
 },
     "article3": {
     title: "CONTACT US | dailyfit",
@@ -81,7 +76,11 @@ function createTemplate(data)
             </div>
             <hr/>
             <div>
-                ${comments}
+                <input type="text" id="name" placeholder="name">
+                <input type="submit" id="submit_btn" value="Submit">
+                <ul id="namelist">
+                    
+                </ul>
             </div>
         </div>
     </body>
