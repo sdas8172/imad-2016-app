@@ -89,7 +89,7 @@ return htmlTemplate;
 
 }
 
-var comments=[];
+/*var comments=[];
 app.get('/comment-name', function(req,res){// /comment-name?name=xxxx
    //get the comment from the request
    var comment=req.query.comment;
@@ -97,7 +97,7 @@ app.get('/comment-name', function(req,res){// /comment-name?name=xxxx
    comments.push(comment);
    //JSON: java script object notation
    res.send(JSON.stringify(comments));
-});
+});*/
 
 var names=[];
 app.get('/submit-name', function(req,res){// /submit-name?name=xxxx
