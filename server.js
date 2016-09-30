@@ -36,7 +36,7 @@ var articles = {
     date: "sep 30 2016",
     content: `<p>
                 NAME  Sandip Das <br>
-                Mobile No  9674348796
+                Mobile No  9674348796 <br>
                 Email id  sdas8172@gmail.com
             </p>`
 }
