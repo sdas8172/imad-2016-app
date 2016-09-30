@@ -76,9 +76,9 @@ function createTemplate(data)
             </div>
             <hr/>
             <div>
-                <input type="text" id="name" placeholder="name">
-                <input type="submit" id="submit_btn" value="Submit">
-                <ul id="namelist">
+                <input type="text" id="comment" placeholder="comment">
+                <input type="comment" id="comment_btn" value="Comment">
+                <ul id="commentlist">
                     
                 </ul>
             </div>
@@ -88,6 +88,16 @@ function createTemplate(data)
 return htmlTemplate;
 
 }
+
+var comments=[];
+app.get('/comment-name', function(req,res){// /comment-name?name=xxxx
+   //get the comment from the request
+   var comment=req.query.comment;
+   
+   comments.push(comment);
+   //JSON: java script object notation
+   res.send(JSON.stringify(comments));
+});
 
 var names=[];
 app.get('/submit-name', function(req,res){// /submit-name?name=xxxx
