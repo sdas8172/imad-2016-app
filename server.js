@@ -28,7 +28,12 @@ var articles = {
             </p>
             <p>
                 Article will comming soon!!
-            </p>`
+            </p>`,
+    comments:`<input type="text" id="name" placeholder="name">
+                <input type="submit" id="submit_btn" value="Submit">
+                <ul id="namelist">
+                    
+                </ul>`
 },
     "article3": {
     title: "CONTACT US | dailyfit",
@@ -57,23 +62,27 @@ function createTemplate(data)
     </head>
     <body>
         <div class="container">
-        <div>
-            <a href="/">HOME     </a>
-            <a href="/article1">ABOUT US</a>
-            <a href="/article2">BLOGS</a>
-            <a href="/article3">CONTACT US</a>
-            
-        </div>
-        <hr/>
-        <div>
-            <h3>${heading}</h3>
-        </div>
-        <div>
-            ${date}
-        </div>
-        <div>
-            ${content}
-        </div>
+            <div>
+                <a href="/">HOME     </a>
+                <a href="/article1">ABOUT US</a>
+                <a href="/article2">BLOGS</a>
+                <a href="/article3">CONTACT US</a>
+                
+            </div>
+            <hr/>
+            <div>
+                <h3>${heading}</h3>
+            </div>
+            <div>
+                ${date}
+            </div>
+            <div>
+                ${content}
+            </div>
+            <hr/>
+            <div>
+                ${comments}
+            </div>
         </div>
     </body>
 </html>`;
