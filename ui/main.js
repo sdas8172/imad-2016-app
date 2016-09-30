@@ -50,7 +50,7 @@ comment.onclick = function(){
           }
       }  
       //not done yet
-    };*/
+    };
     
     //make a request
     var commentInput = document.getElementById('comment');
@@ -59,7 +59,7 @@ comment.onclick = function(){
     request.send(null);
     
     
-};
+};*/
 
 
 //submit name
