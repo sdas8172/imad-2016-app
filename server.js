@@ -54,6 +54,11 @@ function createTemplate(data)
         <title>${title}</title>
         <meta name="viewport" content="wdith=device-width,initial-scale=1"/>
         <link href="/ui/style.css" rel="stylesheet" />
+        <style>
+            div {
+                  background-color: lightblue;
+                }
+        </style>
     </head>
     <body>
         <div class="container">
