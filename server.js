@@ -146,6 +146,9 @@ app.get('/ui/facebook.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'facebook.png'));
 });
 
+app.get('/ui/twitter.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'twitter.png'));
+});
 
 
 
