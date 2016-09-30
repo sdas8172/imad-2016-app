@@ -26,7 +26,7 @@ button.onclick=function(){
     
 };
 
-//submit comment
+/*//submit comment
 var comment = document.getElementById('comment_btn');
 comment.onclick = function(){
     // make a request to the server and send the name
@@ -50,7 +50,7 @@ comment.onclick = function(){
           }
       }  
       //not done yet
-    };
+    };*/
     
     //make a request
     var commentInput = document.getElementById('comment');
