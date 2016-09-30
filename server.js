@@ -149,6 +149,15 @@ app.get('/ui/facebook.png', function (req, res) {
 app.get('/ui/twitter.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'twitter.png'));
 });
+app.get('/ui/wordpress.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'wordpress.png'));
+});
+app.get('/ui/google.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'google.png'));
+});
+app.get('/ui/linkdin.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'linkdin.png'));
+});
 
 
 
