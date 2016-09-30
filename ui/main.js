@@ -27,7 +27,7 @@ button.onclick=function(){
 };
 
 //submit comment
-/*var comment = document.getElementById('comment_btn');
+var comment = document.getElementById('comment_btn');
 comment.onclick = function(){
     // make a request to the server and send the name
      var request= new XMLHttpRequest();
@@ -53,13 +53,13 @@ comment.onclick = function(){
     };
     
     //make a request
-    var nameInput = document.getElementById('name');
-    var name = nameInput.value;
-    request.open('GET','http://sdas8172.imad.hasura-app.io/article2/submit-name?name=' + name,true);
+    var commentInput = document.getElementById('comment');
+    var comment = commentInput.value;
+    request.open('GET','http://sdas8172.imad.hasura-app.io/articles/comment-name?name=' + comment,true);
     request.send(null);
     
     
-};*/
+};
 
 
 //submit name
