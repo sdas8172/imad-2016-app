@@ -62,6 +62,12 @@ function createTemplate(data)
     </head>
     <body>
         <div class="container">
+            <div class="left text-big bold">
+                <img id='web' src="/ui/web-application-development1.png" class="img-medium"/>
+                dailyfit
+                <hr/>
+
+            </div>
             <div>
                 <a href="/">HOME     </a>
                 <a href="/article1">ABOUT US</a>
