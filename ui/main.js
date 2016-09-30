@@ -27,7 +27,7 @@ button.onclick=function(){
 };
 
 //submit comment
-var comment = document.getElementById('comment_btn');
+/*var comment = document.getElementById('comment_btn');
 comment.onclick = function(){
     // make a request to the server and send the name
      var request= new XMLHttpRequest();
@@ -59,7 +59,7 @@ comment.onclick = function(){
     request.send(null);
     
     
-};
+};*/
 
 
 //submit name
