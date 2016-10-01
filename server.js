@@ -56,7 +56,7 @@ function createTemplate(data)
         <link href="/ui/style.css" rel="stylesheet" />
         <style>
             div {
-                  background-color: lightblue;
+                  background-color: lightgrey;
                 }
         </style>
     </head>
