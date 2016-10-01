@@ -63,7 +63,7 @@ function createTemplate(data)
     <body>
         <div class="container">
             <div class="left text-big bold">
-                <img id='web' src="/ui/web-application-development1.png" class="img-medium"/>
+                <img id='web' src="/ui/icon.png" class="img-medium"/>
                 dailyfit
                 <hr/>
 
@@ -167,8 +167,8 @@ app.get('/ui/main.js', function (req, res) {
 });
 
 
-app.get('/ui/web-application-development1.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'web-application-development1.png'));
+app.get('/ui/icon.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'icon.png'));
 });
 
 
