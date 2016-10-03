@@ -7,6 +7,32 @@
             div {
                   background-color: lightgrey;
                 }
+            body {margin:0;}
+		    ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+				position: fixed;
+			
+				width: 100%;
+              }
+
+			li {
+				float: left;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				padding: 16px;
+				text-decoration: none;
+			}
+			h5 {
+				color: white;
+				text-decoration: none;
+			}
         </style>
         
     </head>
@@ -16,16 +42,15 @@
             <div class="left text-big bold">
                 <img id='web' src="/ui/icon.png" class="img-medium"/>
                 dailyfit
-                <hr/>
 
             </div>
             <div>
-            
-                    <a href="/">HOME</a>
-                    <a href="/article1" color="red">ABOUT US</a>
-                    <a href="/article2">BLOGS</a>
-                    <a href="/article3">CONTACT US</a>
-            
+                 <ul> 
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/article1" color="red">ABOUT US</a></li>
+                    <li><a href="/article2">BLOGS</a></li>
+                    <li><a href="/article3">CONTACT US</a></li>
+                 </ul>
             </div>
             <hr/>
             <br>
@@ -45,23 +70,25 @@
             </div>
         </div>
         <hr/>
-        <div class="right">
-            <h5>follow us:</h5>
-            <a href="https://www.facebook.com/sandip.das.9887" target="_blank">
-                <img src="/ui/facebook.png"/>
-            </a>
-            <a href="https://twitter.com/sandipd33" target="_blank" >
-                <img src="/ui/twitter.png"/>
-            </a>
-            <a href="https://sdas8172.wordpress.com/" target="_blank" >
-                <img src="/ui/wordpress.png"/>
-            </a>
-            <a href="https://plus.google.com/u/0/" target="_blank" >
-                <img src="/ui/google.png"/>
-            </a>
-            <a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile" target="_blank" >
-                <img src="/ui/linkedin.png"/>
-            </a>
+        <div>
+            <ul>
+                <h5>follow us:</h5>
+                <a href="https://www.facebook.com/sandip.das.9887" target="_blank">
+                    <img src="/ui/facebook.png"/>
+                </a>
+                <a href="https://twitter.com/sandipd33" target="_blank" >
+                    <img src="/ui/twitter.png"/>
+                </a>
+                <a href="https://sdas8172.wordpress.com/" target="_blank" >
+                    <img src="/ui/wordpress.png"/>
+                </a>
+                <a href="https://plus.google.com/u/0/" target="_blank" >
+                    <img src="/ui/google.png"/>
+                </a>
+                <a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile" target="_blank" >
+                    <img src="/ui/linkedin.png"/>
+                </a>
+            </ul>
         </div>
         
         <script type="text/javascript" src="/ui/main.js">
