@@ -58,6 +58,32 @@ function createTemplate(data)
             div {
                   background-color: lightgrey;
                 }
+            body {margin:0;}
+		    ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+				position: fixed;
+			
+				width: 100%;
+              }
+
+			li {
+				float: left;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				padding: 16px;
+				text-decoration: none;
+			}
+			h5 {
+				color: white;
+				text-decoration: none;
+			}
         </style>
     </head>
     <body>
@@ -65,14 +91,15 @@ function createTemplate(data)
             <div class="left text-big bold">
                 <img id='web' src="/ui/icon.png" class="img-medium"/>
                 dailyfit
-                <hr/>
 
             </div>
             <div>
-                <a href="/">HOME     </a>
-                <a href="/article1">ABOUT US</a>
-                <a href="/article2">BLOGS</a>
-                <a href="/article3">CONTACT US</a>
+              <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/article1">ABOUT US</a></li>
+                <li><a href="/article2">BLOGS</a></li>
+                <li><a href="/article3">CONTACT US</a></li>
+              </ul>
                 
             </div>
             <hr/>
