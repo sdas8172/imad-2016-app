@@ -121,24 +121,25 @@ function createTemplate(data)
                 </ul>
             </div>
         </div>
-        <hr/>
-        <div class="right">
+        <div>
+            <ul>
             <h5>follow us:</h5>
-            <a href="https://www.facebook.com/sandip.das.9887" target="_blank">
-                <img src="/ui/facebook.png"/>
-            </a>
-            <a href="https://twitter.com/sandipd33" target="_blank" >
-                <img src="/ui/twitter.png"/>
-            </a>
-            <a href="https://sdas8172.wordpress.com/" target="_blank" >
-                <img src="/ui/wordpress.png"/>
-            </a>
-            <a href="https://plus.google.com/u/0/" target="_blank" >
-                <img src="/ui/google.png"/>
-            </a>
-            <a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile" target="_blank" >
-                <img src="/ui/linkedin.png"/>
-            </a>
+                <a href="https://www.facebook.com/sandip.das.9887" target="_blank">
+                    <img src="/ui/facebook.png"/>
+                </a>
+                <a href="https://twitter.com/sandipd33" target="_blank" >
+                    <img src="/ui/twitter.png"/>
+                </a>
+                <a href="https://sdas8172.wordpress.com/" target="_blank" >
+                    <img src="/ui/wordpress.png"/>
+                </a>
+                <a href="https://plus.google.com/u/0/" target="_blank" >
+                    <img src="/ui/google.png"/>
+                </a>
+                <a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile" target="_blank" >
+                    <img src="/ui/linkedin.png"/>
+                </a>
+            </ul>
         </div>
     </body>
 </html>`;
