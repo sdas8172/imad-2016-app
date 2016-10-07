@@ -39,7 +39,15 @@ var articles = {
                 Mobile No  9674348796 <br>
                 Email id  sdas8172@gmail.com
             </p>`
-}
+},
+    "gym": {
+        title: "FIND GYM LOCATION | dailyfit",
+        heading: "FIND GYM LOCATION IN YOUR LOCALITY",
+        content: `<div>
+         location<input type="text">
+        </div>`
+        
+    }
 };
 
 function createTemplate(data)
@@ -99,6 +107,7 @@ function createTemplate(data)
                 <li><a href="/article1">ABOUT US</a></li>
                 <li><a href="/article2">BLOGS</a></li>
                 <li><a href="/article3">CONTACT US</a></li>
+                <li><a href="/gym">GYM</a></li>
               </ul>
                 
             </div>
