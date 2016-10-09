@@ -34,11 +34,11 @@
 				text-decoration: none;
 			}
 			
-			li.training {
+			li.dropdown {
              display: inline-block;
             }
 			
-			.training-content {
+			.dropdown-content {
                 display: none;
                 position: absolute;
                 background-color: #f9f9f9;
@@ -46,7 +46,7 @@
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             }
             
-            .training-content a {
+            .dropdown-content a {
                 color: black;
                 padding: 12px 16px;
                 text-decoration: none;
@@ -54,7 +54,7 @@
                 text-align: left;
             }
             
-            .trining-content a:hover {background-color: #f1f1f1}
+            .dropdown-content a:hover {background-color: #f1f1f1}
             
             .show {display:block;}
         </style>
@@ -73,9 +73,9 @@
                     <li><a href="/">HOME</a></li>
                     <li><a href="/article1" color="red">ABOUT US</a></li>
                     <li><a href="/article2">BLOGS</a></li>
-                    <li class="training">
+                    <li class="dropdown">
                         <a href="javascript:void(0)" class="dropbtn" onclick="mTraining()">TRAINING</a>
-                        <div class="training-content" id="myTraining">
+                        <div class="dropdown-content" id="myTraining">
                           <a href="#">Link 1</a>
                           <a href="#">Link 2</a>
                           <a href="#">Link 3</a>
