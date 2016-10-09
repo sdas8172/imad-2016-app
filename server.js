@@ -40,9 +40,9 @@ var articles = {
                 Email id  sdas8172@gmail.com
             </p>`
 },
-    "gym": {
-        title: "FIND GYM LOCATION | dailyfit",
-        heading: "FIND GYM LOCATION IN YOUR LOCALITY",
+    "training": {
+        title: "FIND your training | dailyfit",
+        heading: "FIND training with YOUR choice",
         content: `<div>
          location<input type="text">
         </div>`
@@ -106,7 +106,7 @@ function createTemplate(data)
                 <li><a href="/">HOME</a></li>
                 <li><a href="/article1">ABOUT US</a></li>
                 <li><a href="/article2">BLOGS</a></li>
-                <li><a href="/gym">GYM</a></li>
+                <li><a href="/training">TRAINING</a></li>
                 <li><a href="/article3">CONTACT US</a></li>
                 
               </ul>
