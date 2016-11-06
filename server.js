@@ -55,6 +55,7 @@ var articles = {
         heading: "FIND Multi Gym based on your locality",
         content: `<div>
          Select Your City: <select>
+             <option value="">Select</option>
              <option value="bangalore">Bangalore</option>
              <option value-"chennai">Chennai</option>
              <option value="jaipur">Jaipur</option>
