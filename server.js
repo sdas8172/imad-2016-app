@@ -51,6 +51,7 @@ var articles = {
 },
     "training": {
         title: "FIND your training | dailyfit",
+        date: "nov 6 2016",
         heading: "FIND training with YOUR choice",
         content: `<div>
          location<input type="text">
