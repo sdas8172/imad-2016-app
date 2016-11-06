@@ -64,6 +64,21 @@ var articles = {
          </select>
         </div>`
         
+    },
+    "physiotherapy": {
+        title: "Hire physiotherapist | dailyfit",
+        date: "nov 6 2016",
+        heading: "Hire physiotherapist with your choice",
+        content: `<div>
+         Select Your City: <select>
+             <option value="">Select</option>
+             <option value="bangalore">Bangalore</option>
+             <option value-"chennai">Chennai</option>
+             <option value="jaipur">Jaipur</option>
+             <option value="kolkata">Kolkata</option>
+             <option value="mumbai">Mumbai</option>
+         </select>
+        </div>`
     }
 };
 
@@ -124,6 +139,7 @@ function createTemplate(data)
                 <li><a href="/article1">ABOUT US</a></li>
                 <li><a href="/article2">BLOGS</a></li>
                 <li><a href="/training">TRAINING</a></li>
+                 <li><a href="/physiotherapy">PHYSIOTHERAPY</a></li>
                 <li><a href="/article3">CONTACT US</a></li>
                 
               </ul>
