@@ -215,7 +215,7 @@ app.get('/test-db', function(req, res){
 app.get('/articles/:articleName', function (req,res){
     //articleName == articleOne
     // articles[articleName]=={} content of article one
-    var articleName= req.params.articleName;
+    //var articleName= req.params.articleName;
     
     pool.query("SELECT * FROM article WHERE title = '" + req.params.articleName + "'", function(err, result) {
        if(err) {
