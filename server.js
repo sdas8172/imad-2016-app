@@ -74,6 +74,9 @@ var articles = {
              <option value="saltlake">Saltlake</option>
          </select>
         </div>
+        <div>
+         <button>Search</button>
+        </div>
         </div>`
         
     },
