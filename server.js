@@ -65,7 +65,7 @@ var articles = {
          </select>
          </div>
          <div>
-         Select Your City: <select>
+         Select Your Locality: <select>
              <option value="">Select</option>
              <option value="collegestreet">College Street</option>
              <option value-"rajarhat">Rajarhat</option>
