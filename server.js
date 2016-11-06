@@ -54,6 +54,7 @@ var articles = {
         date: "nov 6 2016",
         heading: "FIND Multi Gym based on your locality",
         content: `<div>
+        <div>
          Select Your City: <select>
              <option value="">Select</option>
              <option value="bangalore">Bangalore</option>
@@ -62,6 +63,7 @@ var articles = {
              <option value="kolkata">Kolkata</option>
              <option value="mumbai">Mumbai</option>
          </select>
+         </div>
         </div>`
         
     },
