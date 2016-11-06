@@ -64,6 +64,16 @@ var articles = {
              <option value="mumbai">Mumbai</option>
          </select>
          </div>
+         <div>
+         Select Your City: <select>
+             <option value="">Select</option>
+             <option value="collegestreet">College Street</option>
+             <option value-"rajarhat">Rajarhat</option>
+             <option value="ruby">Ruby</option>
+             <option value="dumdum">DumDum</option>
+             <option value="saltlake">Saltlake</option>
+         </select>
+        </div>
         </div>`
         
     },
